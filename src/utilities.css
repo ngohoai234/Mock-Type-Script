@@ -1,0 +1,171 @@
+@import url("https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@300;400;500;600;700;800;900&display=swap");
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+* {
+  margin: 0;
+  padding: 0;
+  font: inherit;
+  color: #0c2146;
+}
+body {
+  line-height: 1.5;
+  font-family: "Red Hat Display";
+}
+img,
+picture,
+video,
+canvas,
+svg {
+  display: block;
+  max-width: 100%;
+}
+input,
+button,
+textarea,
+select {
+  outline: none;
+}
+img {
+  margin: 0 auto;
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  overflow-wrap: break-word;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+.bd_pd {
+  border-radius: 5px;
+  box-shadow: rgba(90, 94, 97, 0.3) 0px 1px 2px 0px,
+    rgba(118, 124, 129, 0.15) 0px 0px 2px 0px;
+  padding: 10px;
+}
+.display-flex {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  gap: 15px;
+  flex-wrap: wrap;
+}
+
+.display_flex-space {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+}
+.mg-10 {
+  margin-top: 10px;
+}
+.mg-20 {
+  margin-top: 20px;
+}
+.mg-40 {
+  margin-top: 40px;
+}
+.pd-16 {
+  padding: 0 10px;
+}
+.container {
+  max-width: 1300px;
+  margin: 0 auto;
+}
+.checkbox {
+  height: 15px;
+  width: 15px;
+}
+
+.btn {
+  padding: 5px 16px;
+  border: 1px solid black;
+  border-radius: 3px;
+  color: #2264d1;
+  font-weight: 600;
+  font-size: 15px;
+}
+
+.btn-blue {
+  border: 1px solid rgba(41, 121, 255, 0.5);
+}
+
+.btn_shadow {
+  border: 0;
+  box-shadow: rgba(41, 121, 255, 0.2) 0px 1px 10px;
+}
+.btn_shadow1 {
+  border: 0;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px,
+    rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+  padding: 20px 16px;
+}
+.btn_grey {
+  border: 0;
+  background-color: #ebf2ff;
+}
+.btn_default {
+  border: 0;
+}
+
+.width_not-icon {
+  margin-left: 28px;
+}
+.width-80 {
+  max-width: 80%;
+}
+
+.nav_item {
+  display: flex;
+  align-items: center;
+  width: 80%;
+  padding: 0 5px;
+  margin-bottom: 10px;
+}
+.nav_item.btn {
+  padding: 10px 16px;
+}
+.nav_item-img {
+  padding: 0 10px;
+}
+
+.nav_item-patterns {
+  display: flex;
+  flex-direction: column;
+  flex: 2;
+}
+
+.links_name {
+  font-weight: 550;
+}
+
+.icon-down {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+.nav_item.icon_down-top {
+  align-items: start;
+}
+.icon-down h3 {
+  flex: 2;
+}
+
+.accordion_item {
+  background-color: #f7f7fa;
+  margin-top: 30px;
+  padding: 10px 0 10px 16px;
+}
